@@ -1,3 +1,11 @@
-/**
- * Created by csmarton on 13/10/16.
- */
+import {NgModule} from "@angular/core";
+import {CommonModule} from "@angular/common";
+
+@NgModule({
+  exports: [
+    CommonModule
+  ]
+})
+export class SharedModule {
+
+}
